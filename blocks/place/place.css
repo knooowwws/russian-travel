@@ -1,0 +1,16 @@
+.place {
+	display: grid;
+	width: 100%;
+	grid-template-columns: minmax(320px, 460px) 1fr;
+	grid-template-rows: max-content max-content;
+	gap: 48px 4%;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+	.place {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 32px
+	}
+}

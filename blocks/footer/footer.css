@@ -1,0 +1,36 @@
+.footer {
+	max-width: 1184px;
+	width: 100%;
+	display: grid;
+	padding: 92px 0 24px 0;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr max-content;
+	grid-template-rows: 1fr;
+	justify-content: end;
+
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+	.footer {
+		padding: 92px 48px 24px;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.footer {
+		box-sizing: border-box;
+		padding: 88px 24px 24px;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+	.footer {
+		box-sizing: border-box;
+		padding: 64px 16px 24px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 48px;
+	}
+}
