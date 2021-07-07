@@ -1,5 +1,7 @@
 .lead__image {
-	width: inherit;
+	max-width: 984px;
+	min-width: 320px;
+	width: 100%;
 }
 
 @media screen and (max-width: 320px) {
