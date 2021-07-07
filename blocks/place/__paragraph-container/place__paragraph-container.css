@@ -1,0 +1,13 @@
+.place__paragraph-container {
+	grid-column: 2;
+	grid-row: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+	.place__paragraph-container {
+		padding-left: 16px;
+	}
+}
