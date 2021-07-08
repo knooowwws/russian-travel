@@ -1,7 +1,7 @@
 .place {
 	display: grid;
 	width: 100%;
-	grid-template-columns: minmax(320px, 460px) 1fr;
+	grid-template-columns: 460px 1fr;
 	grid-template-rows: max-content max-content;
 	gap: 48px 4%;
 }
@@ -12,5 +12,17 @@
 		flex-direction: column;
 		justify-content: center;
 		gap: 32px
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.place {
+		grid-template-columns: 440px 1fr;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.place {
+		grid-template-columns: 340px 1fr;
 	}
 }

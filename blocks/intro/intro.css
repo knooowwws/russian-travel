@@ -1,14 +1,21 @@
 .intro {
 	max-width: 720px;
 	width: 100%;
-	box-sizing: border-box;
-	padding: 0;
+	padding-top: 92px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.intro {
+		padding-top: 88px;
+		max-width: 720px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
 	.intro {
 		position: relative;
 		right: 135px;
+		max-width: 690px;
 	}
 }
 
@@ -20,14 +27,10 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-	.intro {
-		max-width: 720px;
-	}
-}
 
 @media screen and (max-width: 767px) {
 	.intro {
+		padding-top: 64px;
 		max-width: 288px;
 	}
 }
