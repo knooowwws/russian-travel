@@ -1,6 +1,6 @@
 .photo-grid__items {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -9,13 +9,13 @@
 	width: 100%;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.photo-grid__items {
 		gap: 14px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 	.photo-grid__items {
 		gap: 12px;
 	}
