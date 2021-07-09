@@ -15,15 +15,8 @@
 	}
 }
 
-@media screen and (min-width: 321px) and (max-width: 786px) {
-	.photo-grid__items {
-		margin: 0 0 88px 0;
-	}
-}
-
 @media screen and (max-width: 320px) {
 	.photo-grid__items {
 		gap: 12px;
-		margin: 0 0 64px 0;
 	}
 }
